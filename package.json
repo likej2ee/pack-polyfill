@@ -1,0 +1,18 @@
+{
+  "name": "webpack-polyfill",
+  "version": "1.0.0",
+  "description": "使用webpack打包es6的polyfill",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "core-js": "^2.5.5",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
